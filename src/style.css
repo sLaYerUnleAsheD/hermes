@@ -311,14 +311,26 @@ section .form{
         right: 0;
         bottom: 5px;
     }
+    section{
+        max-width: 400px;
+    }
     .message-wrapper p{
         max-width: 75%;
+    }
+    nav{
+        margin-top: 20px;
     }
 }
 .sm-screen{
     display: none;
 }
 @media screen and (max-width: 576px) {
+    nav{
+        margin-top: 20px;
+    }
+    section{
+        max-width: 300px;
+    }
     .home-container{
         grid-template-columns: 1fr 5fr;
     }

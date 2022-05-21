@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hermes/static/css/main.35b192a1.css",
+    "main.css": "/hermes/static/css/main.12ca8588.css",
     "main.js": "/hermes/static/js/main.2b8f1df6.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/hermes/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/hermes/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,11 +9,11 @@
     "static/media/buggy.png": "/hermes/static/media/buggy.e5baa8655336dbc530e2.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/hermes/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/hermes/index.html",
-    "main.35b192a1.css.map": "/hermes/static/css/main.35b192a1.css.map",
+    "main.12ca8588.css.map": "/hermes/static/css/main.12ca8588.css.map",
     "main.2b8f1df6.js.map": "/hermes/static/js/main.2b8f1df6.js.map"
   },
   "entrypoints": [
-    "static/css/main.35b192a1.css",
+    "static/css/main.12ca8588.css",
     "static/js/main.2b8f1df6.js"
   ]
 }

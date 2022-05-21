@@ -318,7 +318,7 @@ section .form{
         max-width: 75%;
     }
     nav{
-        margin-top: 20px;
+        position: sticky;
     }
 }
 .sm-screen{
@@ -326,7 +326,7 @@ section .form{
 }
 @media screen and (max-width: 576px) {
     nav{
-        margin-top: 20px;
+        position: sticky;
     }
     section{
         max-width: 300px;

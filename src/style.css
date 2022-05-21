@@ -320,11 +320,17 @@ section .form{
     nav{
         position: sticky;
     }
+    body{
+        overflow-y: auto;
+    }
 }
 .sm-screen{
     display: none;
 }
 @media screen and (max-width: 576px) {
+    body{
+        overflow-y: auto;
+    }
     nav{
         position: sticky;
     }

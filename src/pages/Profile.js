@@ -51,7 +51,7 @@ const Profile = () => {
                     avatar: "",
                     avatarPath: ""
                 })
-                navigate("/")
+                navigate("/hermes")
             }
         } catch (error) {
             console.log(error.message)

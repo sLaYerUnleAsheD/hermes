@@ -18,16 +18,16 @@ const Navbar = () => {
     }
   return (
     <nav>
-        <h3><Link to="/">Hermes</Link></h3>
+        <h3><Link to="/hermes">Hermes</Link></h3>
         {user ? 
             <div>
-                <Link to="/profile">Profile</Link>
+                <Link to="/hermes/profile">Profile</Link>
                 <button className='btn' onClick={handleSignout}>Logout</button>
             </div>
         :
             <div>
-                <Link to="/register">Register</Link>
-                <Link to="/login">Login</Link>
+                <Link to="/hermes/register">Register</Link>
+                <Link to="/hermes/login">Login</Link>
             </div>
         }
 

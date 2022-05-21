@@ -38,7 +38,7 @@ const Register = () => {
                 isOnline: true,
             });
             setData({name: "", email: "", password: "", error: null, loading: false,})
-            navigate("/")
+            navigate("/hermes")
         }catch(err){
             setData({...data, error: err.message, loading: false})
         }

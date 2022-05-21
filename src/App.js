@@ -14,10 +14,10 @@ const App = () => {
         <BrowserRouter>
             <Navbar />
             <Routes>
-                <Route path="/register" element={<Register />}/>
-                <Route path="/login" element={<Login/>}/>
-                <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
-                <Route path="/" element={<PrivateRoute><Home /></PrivateRoute>} />
+                <Route path="/hermes/register" element={<Register />}/>
+                <Route path="/hermes/login" element={<Login/>}/>
+                <Route path="/hermes/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
+                <Route path="/hermes" element={<PrivateRoute><Home /></PrivateRoute>} />
             </Routes>
         </BrowserRouter>
         </AuthProvider>

@@ -14,7 +14,7 @@ const Navbar = () => {
             isOnline: false
         })
         await signOut(auth);
-        navigate("/login");
+        navigate("/hermes/login");
     }
   return (
     <nav>

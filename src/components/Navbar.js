@@ -17,7 +17,7 @@ const Navbar = () => {
         navigate("/hermes/login");
     }
   return (
-    <nav className='navbar'>
+    <nav>
         <h3><Link to="/hermes">Hermes</Link></h3>
         {user ? 
             <div>

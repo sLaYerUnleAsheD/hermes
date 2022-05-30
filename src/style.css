@@ -359,11 +359,19 @@ section .form{
     body{
         overflow-y: auto;
     }
+    .myVideo{
+        width: 120%;
+        height: 120%;
+    }
 }
 .sm-screen{
     display: none;
 }
 @media screen and (max-width: 576px) {
+    .myVideo{
+        width: 120%;
+        height: 120%;
+    }
     body{
         overflow-y: auto;
     }

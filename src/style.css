@@ -360,8 +360,7 @@ section .form{
         overflow-y: auto;
     }
     .myVideo{
-        width: 120%;
-        height: 120%;
+        position: fixed;
     }
 }
 .sm-screen{
@@ -369,14 +368,10 @@ section .form{
 }
 @media screen and (max-width: 576px) {
     .myVideo{
-        width: 120%;
-        height: 120%;
+        position: fixed;
     }
     body{
         overflow-y: auto;
-    }
-    nav{
-        position: sticky;
     }
     section{
         max-width: 300px;

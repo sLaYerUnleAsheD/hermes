@@ -7,11 +7,13 @@ import Login from "./pages/Login.js"
 import Profile from "./pages/Profile.js";
 import AuthProvider from "./context/auth.js";
 import PrivateRoute  from "./components/PrivateRoute.js";
+import Background from "./components/Background.js";
 
 const App = () => {
     return (
         <AuthProvider>
         <BrowserRouter>
+            <Background />
             <Navbar />
             <Routes>
                 <Route path="/hermes/register" element={<Register />}/>

@@ -11,11 +11,23 @@
 }
 body{
     background-color: var(--color1);
+    background-size: cover;
     font-family: Inter,'Courier New', Courier, monospace;
     color: #fff;
     overflow: hidden;
     height: 100vh;
     margin: 0;
+}
+/* Background video */
+.myVideo{
+    position: absolute; 
+    width: 100% ;
+    left: 50% ; 
+    top: 50%;
+    height: 100%;
+    object-fit: cover; 
+    transform: translate(-50%,-50%);
+    z-index: -1;
 }
 /* Navbar */
 nav{
@@ -24,8 +36,9 @@ nav{
     justify-content: space-between;
     height: 70px;
     padding: 0px 20px;
-    background-color: var(--color1);
-    border-bottom: 1px solid var(--color6) ;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* border-bottom: 1px solid var(--color6) ; */
+    border-bottom: 1px solid #fff ; 
 }
 
 nav a{
@@ -42,15 +55,17 @@ section{
     margin: 0 auto;
     margin-top: 100px;
     padding: 10px 20px;
-    box-shadow: 1px 2px 10px var(--color4);
+    /* box-shadow: 1px 2px 10px var(--color4); */
+    border: 1px solid #fff;
     border-radius: 5px;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 section h3{
     text-align: center;
     font-size: 20px;
-    color: var(--color4);
+    color: #fff/*var(--color4)*/;
 }
 section .form{
     margin-top: 20px;
@@ -63,9 +78,15 @@ section .form{
     width: 100%;
     padding: 10px;
     outline: none;
-    border: 1px solid var(--color6);
+    /* border: 1px solid var(--color6); */
+    border: 1px solid #fff;
     margin-top: 10px;
     border-radius: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+.input-container input:active,.input-container input:focus {
+    border: 1px solid var(--color3);
 }
 .btn-container{
     margin: 10px 0px;
@@ -75,11 +96,13 @@ section .form{
     cursor: pointer;
     padding: 10px;
     transition: transform 0.3s ease-in-out all;
-    color: var(--color2);
+    /* color: var(--color2); */
+    color: #fff;
     border-radius: 5px;
     outline: none;
-    background-color: var(--color1);
-    border: 1px solid var(--color4);
+    background-color: rgba(0, 0, 0, 0);
+    /* border: 1px solid var(--color4); */
+    border: 1px solid #fff;
     font-size: 16px;
 }
 .btn:hover{
@@ -167,8 +190,10 @@ section .form{
 
 .users-container{
     margin-top: 10px;
-    /* overflow-y: auto; */
-    border: 2px solid var(--color6);
+    /* border: 2px solid var(--color6); */
+    border: 1px solid #fff;
+    overflow-y: auto;
+
 }
 
 .user-wrapper{
@@ -211,19 +236,26 @@ section .form{
 }
 .messages-user{
     padding: 10px;
-    border-bottom: 2px solid var(--color6);
+    /* border-bottom: 2px solid var(--color6); */
+    border-bottom: 1px solid #fff;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    /* -webkit-box-shadow: 0 8px 6px -6px rgb(224, 255, 46);
+    -moz-box-shadow: 0 8px 6px -6px rgb(230, 255, 1);
+    box-shadow: 0 8px 6px -6px rgb(186, 255, 26); */
 }
 .no-conv{
     font-size: 20px;
     text-align: center;
-    color: var(--color4);
+    /* color: var(--color4); */
+    color: #fff;
 }
 .upload-icon{
     width: 25px;
     height: 25px;
     cursor: pointer;
-    color: gray;
+    /* color: gray; */
+    color: #fff;
 }
 .message-form{
     position: absolute;
@@ -249,7 +281,9 @@ section .form{
 .messages{
     height: calc(100vh - 200px);
     overflow-y: auto;
-    border-bottom: 1px solid var(--color6);
+    /* border-bottom: 1px solid var(--color6); */
+    border-bottom: 1px solid #fff;
+
 }
 .message-wrapper{
     margin-top: 5px;
@@ -282,7 +316,9 @@ section .form{
     background-color: var(--color6);
 }
 .selected-user{
-    background-color: var(--color6);
+    /* background-color: var(--color6); */
+    background-color: rgba(0, 0, 0, 0.5);
+
 }
 .truncate{ 
     font-size: 14px;
